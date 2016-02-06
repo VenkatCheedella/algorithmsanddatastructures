@@ -72,6 +72,7 @@ public class LongestIncreasingSubSequence {
 		return maxLength;
 	}
 	
+	// Print the longest sequence from end
 	private static void printSequenceOrder(int[] input, int[] sequenceOrder, int startIndex){			
 		while(startIndex != -1){
 			System.out.print(input[startIndex] + " ");
